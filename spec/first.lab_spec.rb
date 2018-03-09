@@ -1,5 +1,4 @@
 require 'spec_helper'
-
 describe 'First Lab:' do
   it 'you made an edit to edit-me.txt' do
     file_edited = !File.read("./edit-me.txt").empty?
